@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<style>
+		div {
+			border: 1px dotted black;
+		}
+	</style>
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<div class="container"><h1>Header</h1></div>
+	</header>
+	<div class="container">
+		<section class="main row">
+			<article class="col-md-6 col-md-offset-3"> <p>Lorem ipsum dolor sit amet, <pre>consectetur adipisicing elit. Eveniet aut id facilis fuga enim ipsum debitis quos.</pre> Voluptatem, cupiditate reiciendis qui accusantium culpa consequuntur, totam assumenda ducimus! A, repudiandae, aliquid.</p> </article>
+			<aside class="col-md-3"><p class="text-justify">Lorem ipsum dolor sit amet, <em>consectetur adipisicing elit.</em> Eveniet aut id <b>facilis fuga enim ipsum debitis</b> quos. Voluptatem, cupiditate reiciendis qui accusantium culpa consequuntur, totam assumenda ducimus! A, repudiandae, aliquid.</p></aside>
+		</section>
+	</div>
+	<div class="container">
+		<section class="row ">
+			<article class="col-sm-8 col-md-4 colorazul">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <code>Nesciunt accusamus magnam recusandae porro doloribus</code>, nam architecto quaerat, nobis eum nihil quos explicabo, expedita natus ducimus dolores a necessitatibus veritatis sit!</p>
+				
+			</article>
+			<article class="col-sm-2 col-md-4">
+				<p class="text-capitalize">Lorem ipsum dolor sit amet, <u>consectetur adipisicing elit. </u>Doloribus non ut quos corporis, nisi vitae ea soluta adipisci hic officia pariatur numquam fugiat ipsa beatae officiis accusantium nam error eveniet.</p>
+			</article>
+			<article class="col-sm-2 col-md-4">
+				<p class="text-uppercase">Lorem ipsum dolor sit amet, <mark>consectetur adipisicing elit. </mark>Veritatis perferendis esse corporis doloribus, <del>eaque quisquam soluta cum</del> excepturi odio voluptate iste mollitia possimus, ipsa consequatur consequuntur, velit expedita maiores incidunt.</p>
+			</article>
+		</section>
+		<div class="row">
+			<div class="table-responsive">
+				<table class="table table-striped">
+					<tr class="warning">
+						<th>Nombrex:</th>
+						<th>Edad:</th>
+						<th>Sexo:</th>
+					</tr>
+					<tr>
+						<td>Rodrigo</td>
+						<td>18</td>
+						<td>h</td>
+					</tr>
+					<tr>
+						<td>Silvia</td>
+						<td>56</td>
+						<td>f</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<form action="">
+				<div class="form-group">
+					<label for="nombre_txt">Nombre:</label>
+					<input type="text" name="nombre" id="nombre_txt" placeholder="Nombre:" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="estado_sl">Estado</label>
+					<select name="estado" id="estado_sl" class="form-control">
+						<option value="Mexico">México</option>
+						<option value="durango">Durango</option>
+						<option value="chiapas">Chiapas</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="descripcion_txta">Descripcion de ti</label>
+					<textarea name="descripcion" id="descripcion_txta" cols="30" rows="10" placeholder="Una descripcion de ti mismo" class="form-control"></textarea>
+				</div>
+				<button class="btn btn-primary">Enviar</button>
+			</form>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<script>
+				var edad = 10;
+				edad++;
+				document.write(edad + 3);
+				console.log(edad + 5);
+				
+			    </script>
+		    </div>
+			<div class="col-md-4"><img src="http://lorempixel.com/400/200" class="img-responsive" /></div>
+			<div class="col-md-4"><img src="http://lorempixel.com/400/200" class="img-responsive" /></div>
+		</div>
+		
+	</div>
+
+
+	<div class="container-fluid">
+		<div class="row guideLine" >
+			<div class="col-md-3">logo</div>
+			<div class="col-md-6">espacio</div>
+			<div class="col-md-3">buscador</div>
+			
+		</div>
+		<div class="row guideLine" >
+			<div class="col-md-12 text-center">
+				<ul class="list-inline">
+					<li>items </li>
+					<li>items </li>
+					<li>items </li>
+				</ul>
+		    </div>
+			
+		</div>
+		<div class="row guideLine" >
+			<div class="col-md-4 guideLine">
+				<ul>
+					<li>unox</li>
+					<li>unox</li>
+					<li>unox</li>
+				</ul>
+				
+			</div>
+			<div class="col-md-4 guideLine">
+				<p>parrafo1</p>
+				
+			</div>
+			<div class="col-md-4 guideLine">
+				<p>parrafo2</p>
+				
+			</div>
+			
+		</div>
+
+
+		<div class="row guideLine" >
+			
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
